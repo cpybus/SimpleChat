@@ -1,0 +1,20 @@
+name: SimpleChat
+main: me.chris.SimpleChat.SimpleChatMain
+version: 6.0
+description: A plugin that makes setting prefixes and suffixes a breeze.
+depend: [Vault]
+commands:
+    simplechat:
+        description: This is the same thing as using sc, except longer... So pretty useless.
+    chat:
+        description: Toggles chat
+    chaton:
+        description: Turns chat on. Everyone can talk again.
+    chatoff:
+        description: Turns chat off. No one will be able to talk.
+    scconfig:
+        description: Lets user change things in the config.yml file
+    scextra:
+        description: Lets user change things in the extra.yml file
+    cmdrdrct:
+        description: N/A

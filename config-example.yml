@@ -1,0 +1,71 @@
+#Copyright (C) 2011 Christopher Pybus <hotshot2162@yahoo.com>
+
+
+# THIS FILE DOES NOT MEAN ANYTHING IN THE SIMPLECHAT PLUGIN.
+# IT IS FOR EXPLANATION AND DEMONSTRATION PURPOSES ONLY.
+# IN THIS FILE, THE MEANINGS OF ALL THE DIFFERENT VARIABLES
+# WILL BE EXPLAINED TO YOU.
+
+
+# +------------------------------------------------------+ #
+# |                    Message Format                    | #
+# |                                                      | #
+# |   Available Variables: +pname: Player Name           | #
+# |                        +dname: Display Name          | #
+# |                        +pre: Player's Prefix         | #
+# |                        +suf: Player's Prefix         | #
+# |                        +gro: Group Name              | #
+# |                        +msg: The Message             | #
+# |                        Color Codes (&a, &b, &1...)   | #
+# +------------------------------------------------------+ #
+# Please note that any prefixes/suffixes set in the user section 
+# For a player will override their group prefix/suffix. 
+MessageFormat: '+pre&7+pname&f: +msg'
+
+
+# +------------------------------------------------------+ #
+# |                        Groups                        | #
+# |                                                      | #
+# |   Please make sure these names match EXACTLY with    | #
+# |   Those defined in your permissions plugin.          | #
+# +------------------------------------------------------+ #
+Groups:
+    Default:
+        prefix: '&f[Visitor] '
+        suffix: ''
+    Regulars:
+        prefix: '&7[Regular] '
+        suffix: ''
+    Staff:
+        prefix: '&c[Staff] '
+        suffix: ''
+    Admin:
+        prefix: '&4[Admin] '
+        suffix: ''
+
+# +------------------------------------------------------+ #
+# |                        Users                         | #
+# |                                                      | #
+# |   Prefixes set down here will override those set     | #
+# | Above. For example, PlayerPerson's prefix would      | #
+# | be 'AwesomeDude' Instead of &c[Staff] because        | #
+# | it was set down here.                                | #
+# +------------------------------------------------------+ #
+Users:
+    PlayerPerson:
+        prefix: 'AwesomeDude'
+        suffix: ''
+    AnotherPlayer:
+        prefix: 'AwesomeDude'
+        suffix: ''
+
+# +------------------------------------------------------+ #
+# |                        Defaults                      | #
+# |                                                      | #
+# | When a prefix, suffix, or group is not found, it'll  | #
+# | default to whatever values you have set below here.  | #
+# +------------------------------------------------------+ # 
+Defaults:
+    prefix: '&f[Visitor] '
+    suffix: ''
+    group: 'Default'

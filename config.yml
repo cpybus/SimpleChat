@@ -1,0 +1,31 @@
+
+MessageFormat: '+pre&7+pname&f: +msg'
+
+Groups:
+    Default:
+        prefix: '&f[Visitor] '
+        suffix: ''
+    Regulars:
+        prefix: '&7[Regular] '
+        suffix: ''
+    Staff:
+        prefix: '&c[Staff] '
+        suffix: ''
+    Admin:
+        prefix: '&4[Admin] '
+        suffix: ''
+
+Users:
+    ca8c90e0-1780-11e4-8c21-0800200c9a66:
+        name: 'PlayerPerson'
+        prefix: 'AwesomeDude'
+        suffix: ''
+    ed4938fe-1780-11e4-aa00-b2227cce2b54:
+        name: 'AnotherPlayer'
+        prefix: 'AwesomeDude'
+        suffix: ''
+
+Defaults:
+    prefix: '&f[Visitor] '
+    suffix: ''
+    group: 'Default'

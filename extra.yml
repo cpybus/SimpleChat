@@ -1,0 +1,136 @@
+
+UseSimpleChatCensor: true
+CurseWords:
+    - motherfucker 
+    - fuck
+    - shit
+    - bullshit
+    - cock
+    - dick
+    - pussy
+    - bitch
+    - nigger
+    - cunt
+    - asshole
+    - ass
+    - bastard 
+    - beaner 
+    - blowjob
+    - boner 
+    - choad 
+    - chode 
+    - cum 
+    - dumass 
+    - dyke 
+    - douche 
+    - faggot 
+    - fag 
+    - gay 
+    - handjob 
+    - hardon
+    - hoe 
+    - humping 
+    - jackass 
+    - lameass 
+    - negro 
+    - nigga 
+    - nigger 
+    - nutsack 
+    - queer 
+    - queef 
+    - slut
+    - skank 
+    - tard
+    - testicle
+    - vagina 
+    - whore 
+
+UseSimpleChatCapsPreventer: true
+MaxNumberOfCapitalLetters: 3
+# If kick is true, msgToPlayer and replaceMsg have to be false.
+Punishment:
+    kick: false
+    msgToPlayer: true
+    replaceMsg: true
+MsgToPlayer: '&4Please dont use caps, dude'
+ReplaceWith:
+    - 'Look at my new dress!!'
+    - 'Has anyone seen my dolly?'
+    - 'This new makeup is amazing!'
+    - 'I have to go! My ballet class is in 15 minutes!'
+    - 'BRB, going to go try on my new dress!'
+    - 'New Victorias Secret bra came in today! Im so excited!!'
+    - 'My new favorite color has GOT to be pink!'
+
+UseSimpleChatOtherMessages: true
+OtherMessages:
+    join: '&a+pname &ehas joined the game.'
+    leave: '&a+pname &ehas left the game.'
+    kick: '&c+pname has been kicked from the game +reason.'
+    firstTimeJoin: '&a+pname &eis new here! Give him a warm welcome!'
+
+UseSimpleChatDieMessages: true
+DieMessages:
+    deathInFire: '+pname went up in flames.'
+    deathOnFire: '+pname burned to death.'
+    deathLava: '+pname tried to swim in lava.'
+    deathInWall: '+pname suffocated in a wall.'
+    deathDrowned: '+pname drowned.'
+    deathStarve: '+pname starved to death.'
+    deathCactus: '+pname was pricked to death.'
+    deathFall: '+pname hit the ground too hard.'
+    deathOutOfWorld: '+pname fell out of the world.'
+    deathGeneric: '+pname died.'
+    deathExplosion: '+pname blew up.'
+    deathMagic: '+pname was killed by magic.'
+    deathSlainBy: '+pname was slain by +other'
+    deathArrow: '+pname was shot by +other.'
+    deathFireball: '+pname was fireballed by +other.'
+    deathThrown: '+pname was pummeled by +other.'
+
+UseSimpleChatJoinMsg: true
+JoinMsgToPlayer:
+    - '&5====================================================='
+    - '&a          Welcome to the server, +pre +pname!'
+    - '&a Please make sure youve read all the rules and such.'
+    - '&4 Online Admins: <onlineplayers:&c,&4,admin>  '
+    - '&a Online Members: <onlineplayers:&c,&4,member>  '
+    - '&a Online Defaults: <onlineplayers:&c,&4,default>  '
+    - '&5====================================================='
+
+UseSimpleChatGeneralFormatting: true
+MeFormat: '* &c+dname &7+msg'
+SayFormat: '&6[&4Server&6] &a+msg'
+BroadcastFormat: '&6[&4Broadcast&6] &a+msg'
+
+UseSimpleChatMsgAndReplyFormatting: true
+SendingMessage: '&8&l[&r&7+pname &e-> &7+otherpname&8&l] &r&b&o+msg'
+ReceivingMessage: '&8&l[&r&7+otherpname &e-> &7+pname&8&l] &r&b&o+msg'
+SocialSpyOffPM:
+- ThisPlayer
+- Player123456789
+
+UseSimpleChatAdminChat: true
+AdminChatFormat: '&3[AdminChat] &7+pname: &4+msg'
+
+UseSimpleChatPartyChat: true
+PartyChatFormat: '&3[+partyname] &7+pname: &2+msg'
+Parties:
+    ExampleParty:
+        Owner: SupremeOverlord
+        Password: password
+        Members:
+        - Player1
+        - Player2
+        - Player3
+    SecondExampleParty:
+        Owner: AnotherPlayer
+        Members:
+        - Player4
+        - Player5
+        - Player6
+        BannedPlayers:
+        - StupidPlayer
+SocialSpyOffParty:
+- ThisPlayer
+- Player123456789   
